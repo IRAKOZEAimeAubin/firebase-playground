@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node db.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "firebase": "^12.9.0"
+  },
+  "engines": {
+    "node": ">= 24.13.0",
+    "npm": ">= 11.6.2"
   }
 }
